@@ -1,0 +1,4 @@
+Poster[[:space:]]Jpegs filter=lfs diff=lfs merge=lfs -text
+Clip[[:space:]]Posters filter=lfs diff=lfs merge=lfs -text
+Images filter=lfs diff=lfs merge=lfs -text
+profiles filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,89 @@
+
+.logo{
+    width: 30%;
+    right: 0%;
+    margin: 0%;
+}
+
+.content h3{
+    font-size: 2.5vw;
+    width: 80%;
+}
+
+.content h1{
+    font-size: 8vw;
+}
+
+.display-page{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.sidebar a{
+    font-size: large;
+}
+
+.overlay{
+    height: 100%;
+}
+
+.openbtn{
+    font-size: 4vw;
+}
+
+.logo{
+    margin: 10px;
+    width: 20%;
+}
+
+.data-row h2{
+    color: aqua;
+    font-size: 5vw;
+}
+
+.swipe{
+    display: block;
+    font-size: 2vw;
+}
+
+/* Cards Section Begins Here*/
+
+.holder{
+    flex-direction: column;
+}
+
+.list{
+    display: flex;
+    height: 220px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+}
+
+.dc{
+    font-size: 3vw;
+    margin-left: 50px;
+}
+
+.swipe-more{
+    transform: rotate(0deg);
+    top: -5%;
+    left: 10%;
+    font-size: 2vw;
+}
+
+.student-profile h1, .student-profile h2, .student-profile h3, .student-profile p{
+    display: none;
+}
+
+.ext-link a{
+    font-size: 10px;
+}
+
+.links a{
+    font-size: 4vw;
+    margin-top: 100px;
+}
