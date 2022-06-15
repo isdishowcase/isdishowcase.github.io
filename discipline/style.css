@@ -122,10 +122,33 @@ body::-webkit-scrollbar{
 }
 
 
+/* test start*/
+.poster div{
+  display: flex;
+}
+
+.profile, .cutouts{
+ flex-direction: column;
+}
+
+.profile img, .content img, .poster img{
+  width: 100%;
+}
+
+.profile a{
+  object-fit: cover;
+}
+
 .list{
   height: 100vh;
   overflow-y: scroll;
 }
+
+.list::-webkit-scrollbar{
+  display: none;
+}
+
+/* test ends*/
 
 .tab-pane img{
   width: 100%;

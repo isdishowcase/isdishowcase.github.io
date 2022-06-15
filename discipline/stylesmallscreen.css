@@ -20,26 +20,46 @@
     flex-direction: column;
 }
 
+
 .list{
     display: flex;
-    height: 300px;
+    height: 25%;
     overflow-y: hidden;
     overflow-x: scroll;
+    margin-bottom: 10px;
 
-    width: 100%;
-}
 
-.list ul{
-    display: flex;
-    flex-direction: row;
-    
 }
+::-webkit-scrollbar{
+    width: 5px;
+    color: white;
+    scroll-behavior: smooth;
+ }
+::-webkit-scrollbar-thumb {
+ 
+     background: black;
+   }
+
 .student-profile{
     align-items: center;
     padding: 0px;
     margin: 0px;
 }
 .ext-link{
-    width: 90vw;
-    background-color: aquamarine;
+    max-width: 50vw;
+    overflow: hidden;
+}
+
+/*TODO: The links were supposed to hide the text and just show the logo of social media, which is not happening*/
+.hide-link{
+    display: none;
+    color: wheat;
+}
+
+.swipe-more{
+    transform: rotate(0deg);
+    top: -2%;
+    left: 30vw;
+    font-size: 2.5vw;
+    height: min-content;
 }
