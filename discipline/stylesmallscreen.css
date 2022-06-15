@@ -1,3 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    height: 60px !important;
+    font-size: 2vw;
+}
+
+#logo{
+    width: 20% !important;
+}
+
 .student-profile h1, .student-profile h2, .student-profile h3, .student-profile p{
     display: none;
+}
+
+.holder{
+    flex-direction: column;
+}
+
+.list{
+    display: flex;
+    height: 300px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+    width: 100%;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.student-profile{
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.ext-link{
+    width: 90vw;
+    background-color: aquamarine;
 }

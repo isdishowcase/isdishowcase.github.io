@@ -52,11 +52,12 @@ body::-webkit-scrollbar{
     justify-content: space-between;
     background-color: rgb(59,46,124);
     z-index: 2 ;
+    transition: 0.4s;
 
 }
 
 .logo{
-    width: 10%;
+    transition: 0.4s;
 }
 
 /* Sidebar menu */

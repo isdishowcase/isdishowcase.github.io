@@ -68,6 +68,14 @@
     margin-left: 50px;
 }
 
+.nave{
+    height: 60px !important;
+    font-size: 2vw;
+}
+
+#logo{
+    width: 20% !important;
+}
 .swipe-more{
     transform: rotate(0deg);
     top: -5%;
