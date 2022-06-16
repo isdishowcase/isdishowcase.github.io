@@ -13,10 +13,10 @@ function openNav() {
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.height = "80px";
-    document.getElementById("logo").style.width = "8vw";
+    document.getElementById("navbar").style.height = "60px";
+    document.getElementById("logo").style.width = "6vw";
   } else {
-    document.getElementById("navbar").style.height = "120px";
-    document.getElementById("logo").style.width = "10vw";
+    document.getElementById("navbar").style.height = "90px";
+    document.getElementById("logo").style.width = "8vw";
   }
 }
