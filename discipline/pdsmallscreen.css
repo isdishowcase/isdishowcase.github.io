@@ -1,0 +1,13 @@
+body{
+    overflow: scroll;
+}
+
+
+.holder{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.display{
+    width: 200vw;
+}
