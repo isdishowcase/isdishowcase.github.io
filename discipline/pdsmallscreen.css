@@ -15,7 +15,7 @@ body{
     height: auto;
 }
 
-.tab-content{
+.content-tab{
    visibility: hidden;
     position: absolute;
     background-color: white;
@@ -31,6 +31,8 @@ body{
     border-radius: 100px;
     background-color: blue;
     position: absolute;
+}
 
-
+.sidebar a{
+    font-size: large;
 }
