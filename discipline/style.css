@@ -256,3 +256,7 @@ body::-webkit-scrollbar{
     background-color: black;
     border-color: transparent;
 } 
+
+.back-button{
+  display: none;
+}

@@ -5,9 +5,32 @@ body{
 
 .holder{
     display: flex;
-    overflow-x: scroll;
+    position: relative;
+    height: auto;
 }
 
-.display{
-    width: 200vw;
+
+.list{
+    overflow: hidden;
+    height: auto;
+}
+
+.tab-content{
+   visibility: hidden;
+    position: absolute;
+    background-color: white;
+    height: auto;
+}
+
+.student-profile h1, .student-profile h2, .student-profile h3, .student-profile p{
+    display: none;
+}
+
+.back-button{
+    display: block;
+    border-radius: 100px;
+    background-color: blue;
+    position: absolute;
+
+
 }
