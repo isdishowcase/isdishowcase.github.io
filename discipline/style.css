@@ -31,6 +31,7 @@ body::-webkit-scrollbar{
 
 #logo{
    transition: 0.4s;
+   width: 8vw;
 }
 
 
@@ -95,13 +96,24 @@ body::-webkit-scrollbar{
 /* Section Introduction*/
 .introduction{
   padding: 40px 80px 40px 80px;
+  display: flex;
+  flex-direction: column;
 }
 
+marquee div img{
+  width: 20%;
+  margin: 20px 8px 20px 8px;
+}
+marquee div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
   /* Section display*/
 
 .profile img, .content img, .poster img{
-    width: 100%;
+    width: 50%;
 }
 
 .profile a{
@@ -237,16 +249,14 @@ body::-webkit-scrollbar{
       margin: 1rem;
       font-weight: 500;
       font-size: 15px;
-      transition: background-color 0.5 ease-in-out, color .5 ease-in-out;
+      transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   }
 
   .ext-link a img{
       width: 15%;
-      background-color: aqua;
   }
 
   .ext-link a p{
-    background-color: bisque;
     align-self: center;
     height: 100%;
   }
@@ -259,4 +269,8 @@ body::-webkit-scrollbar{
 
 .back-button{
   display: none;
+}
+
+.visual-content{
+  justify-content: center;
 }

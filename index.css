@@ -57,6 +57,7 @@ body::-webkit-scrollbar{
 }
 
 .logo{
+    width: 6vw;
     transition: 0.4s;
 }
 
@@ -117,9 +118,9 @@ body::-webkit-scrollbar{
     z-index: 1;
     position: relative;
     align-self: center;
-    display: flex;
-    flex-direction: column;
-    margin: 2vw;
+    margin-top: 15vw;
+    margin-bottom: 10vw;
+    background-color: wheat;
 
 }
 
