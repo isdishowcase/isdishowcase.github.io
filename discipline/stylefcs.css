@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
@@ -18,34 +17,6 @@ body::-webkit-scrollbar{
     display: none;
 }
 
-.intro
-{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    justify-content: center;
-    margin: 200px 0px 200px 0px;
-}
-
-.content{
-    z-index: 1;
-    background: transparent;
-    
-}
-
-.intro h3{
-    font-size: 1vw;
-    margin-top: 60px;
-    width: 70%;
-    
-}
-
-.intro h1{
-    text-align: left;
-    font-size: 4vw;
-   
-}
-
 .nave{
     display: flex;
     align-items: center;
@@ -56,10 +27,11 @@ body::-webkit-scrollbar{
 
 }
 
-.logo{
-    width: 6vw;
-    transition: 0.4s;
+#logo{
+   transition: 0.4s;
+   width: 8vw;
 }
+
 
 /* Sidebar menu */
 
@@ -108,127 +80,130 @@ body::-webkit-scrollbar{
     border: none;
     color: rgb(206, 0, 79);
   }
+
+  .introduction{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+  }
   
   .openbtn:hover {
     background-color: rgb(27, 15, 85);
   }
   
-
-.stats{
-    z-index: 1;
-    position: relative;
-    align-self: center;
-    margin-top: 15vw;
-    margin-bottom: 10vw;
-
+/* Section Introduction*/
+.introduction{
+  padding: 40px 80px 40px 80px;
+  display: flex;
+  flex-direction: column;
 }
 
-.heading{
-    text-align: center;
-    justify-content: center;
+marquee div img{
+  width: 20%;
+  margin: 20px 8px 20px 8px;
+}
+marquee div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/*Profile section*/
+.nav{
+  flex-wrap: nowrap !important;
+  display: flex;
 }
 
-.data{
-    text-align: center;
+.nav-item{
+  display: block;
 }
 
-.data-row{
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    text-align: center;
-    object-fit: contain;
-    overflow-x: scroll;
-
-}
-
-.data-row h2{
-    color: rgb(21, 141, 150);
-    font-size: 2.5vw;
-    font-weight: 600;
-}
-
-h2 span{
-    font-size: 1vw;
-}
-
-.data-row::-webkit-scrollbar{
-    display: none;
-}
-
-.swipe{
-    display: none;
+.nav li{
+  display: flex;
+  width: fit-content;
 }
 
 
-/* Section Display begins here*/
-
-.display{
-    width: 90%;
-    justify-self: center;
-    align-self: center;
-    position: relative;
-
-}
-
-.holder{
-    display: flex;
-    align-items: center;
-
-
-}
-
-.poster div{
-    display: flex;
-}
-
-.profile, .cutouts{
-   flex-direction: column;
-}
+  /* Section display*/
 
 .profile img, .content img, .poster img{
-    width: 100%;
+    width: 50%;
+}
+
+.profile img{
+  border-radius: 50px;
 }
 
 .profile a{
     object-fit: cover;
 }
 
+.display{
+   
+    position: relative;
+
+}
+
+
+.holder{
+    display: flex;
+    align-items: flex-start;
+    height: fit-content;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.profile, .cutouts{
+ flex-direction: column;
+}
+
+.content img, .poster img{
+  width: 100%;
+}
+
+.profile img{
+    width: 50%;
+    border-radius: 500px;
+}
+
+.profile a{
+  object-fit: cover;
+}
+
 .list{
-    background-color: rgb(234, 234, 234);
-    height: 100vh;
-    overflow-y: scroll;
+  height: 100vh;
+  display: flex;
+
+}
+
+.list img{
+  width: 10%;
 }
 
 .list::-webkit-scrollbar{
-    display: none;
+  display: none;
 }
 
-.dc{
-    margin-left: 50px;
-}
+/* test ends*/
 
-.swipe-more{
-    position: absolute;
-    left: -15%;
-    bottom: 70%;
-    transform: rotate(-90deg);
-}
 
-.student-profile{
+
+::-webkit-scrollbar{
+    width: 5px;
+    color: white;
+    scroll-behavior: smooth;
+ }
+::-webkit-scrollbar-thumb {
+ 
+     background: black;
+   }
+
+
+   .poster div{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-
 }
 
-.student-profile h1{
-    font-size: 3vw;
-    font-weight: 600;
-}
-
-.student-profile h3{
-    font-size: 2vw;
+.profile, .cutouts{
+   flex-direction: column;
 }
 
 .links{
@@ -251,10 +226,40 @@ h2 span{
     box-shadow: inset 500px 0 0 0 #54b3d6;;
   }
 
-  .ext-link{
+  .swipe-more{
+    position: absolute;
+    left: 20%;
+    bottom: 50%;
+    transform: rotate(90deg);
+    z-index: 2;
+    font-size: 1vw;
+}
+
+.student-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+
+}
+
+.student-profile h1{
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.student-profile h3{
+    font-size: 2vw;
+
+}
+
+.ext-link{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+      align-items: center;
   }
 
   .ext-link a{
@@ -262,25 +267,36 @@ h2 span{
       text-decoration: none;
       border-style: solid;
       display: flex;
-      align-items: center;
-      justify-content: space-around;
-      border-width: 2px;
+      align-items: center !important;
+      justify-content: center !important;
+      border-width: 3px;
       border-radius: 50px;
-      padding: 10px 20px 10px 20px;
-      margin: 4px;
+      /* padding: 10px 20px 10px 20px; */
+      margin: 1rem;
       font-weight: 500;
       font-size: 15px;
-      transition: background-color 0.5 ease-in-out, color .5 ease-in-out;
+      transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   }
 
   .ext-link a img{
-      width: 20%;
+      width: 15%;
+  }
+
+  .ext-link a p{
+    align-self: center;
+    height: 100%;
   }
 
   .ext-link a:hover{
     color: white;
     background-color: black;
+    border-color: transparent;
+} 
+
+.back-button{
+  display: none;
 }
 
-
-  
+.visual-content{
+  justify-content: center;
+}
