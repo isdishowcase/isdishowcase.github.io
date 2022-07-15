@@ -37,12 +37,30 @@ body{
     font-size: large;
 }
 
+.turnphone{
+    position: fixed;
+    top: 0;
+    left: 0%;
+    height: 100vh;
+    width: 100vw;
+    background-color: #aaaaaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 button img{
     border-radius: 10px;
     box-shadow: 4px 4px 5px #aaaaaa;
 }
   /* (A) WRONG ORIENTATION - SHOW MESSAGE HIDE CONTENT */
-@media only screen and (orientation:landscape) {
-    #turn { display:block; }
-    body { display:none; }
+  @media only screen and (orientation:landscape) {
+    #turn { display:flex; }
+
+  }
+   
+  /* (B) CORRECT ORIENTATION - SHOW CONTENT HIDE MESSAGE */
+  @media only screen and (orientation:portrait) {
+    #turn { display:none; }
+
   }
