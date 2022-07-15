@@ -253,13 +253,7 @@ marquee div{
     align-self: center;
     height: 100%;
   }
-
-  .ext-link a:hover{
-    color: white;
-    background-color: black;
-    border-color: transparent;
-} 
-
+  
 .back-button{
   display: none;
 }
