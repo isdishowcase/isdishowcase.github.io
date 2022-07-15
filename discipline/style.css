@@ -241,6 +241,9 @@ marquee div{
       align-items: center !important;
       justify-content: center !important;
   }
+  ext-link a[href = ""]{
+    display: none;
+  }
 
   .ext-link a img{
       width: 15%;
@@ -264,3 +267,4 @@ marquee div{
 .visual-content{
   justify-content: center;
 }
+

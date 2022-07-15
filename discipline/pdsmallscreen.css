@@ -41,4 +41,8 @@ button img{
     border-radius: 10px;
     box-shadow: 4px 4px 5px #aaaaaa;
 }
-  
+  /* (A) WRONG ORIENTATION - SHOW MESSAGE HIDE CONTENT */
+@media only screen and (orientation:landscape) {
+    #turn { display:block; }
+    body { display:none; }
+  }
