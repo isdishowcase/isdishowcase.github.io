@@ -246,14 +246,16 @@ marquee div{
   }
 
   .ext-link a img{
-      width: 15%;
+      width: 25%;
+      filter: grayscale(100%);
   }
 
+  /*TODO: on hover color isko*/
   .ext-link a p{
     align-self: center;
     height: 100%;
   }
-  
+
 .back-button{
   display: none;
 }
