@@ -271,3 +271,14 @@ marquee div{
   justify-content: center;
 }
 
+.student-profile h2{
+  margin-top: -10px;
+  font-weight: 400;
+}
+
+.student-profile h3{
+  text-align: center;
+  font-size: medium;
+  font-weight: 600;
+  margin-top: 50px;
+}

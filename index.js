@@ -13,10 +13,24 @@ function openNav() {
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    if(screen.width > 600){
     document.getElementById("navbar").style.height = "60px";
     document.getElementById("logo").style.width = "6vw";
+  }
+
+  else{
+    document.getElementById("navbar").style.height = "40px";
+    document.getElementById("logo").style.width = "8vw";
+  }
   } else {
+    if(screen.width > 600){
     document.getElementById("navbar").style.height = "90px";
     document.getElementById("logo").style.width = "8vw";
+    }
+
+    else{
+      document.getElementById("navbar").style.height = "60px";
+      document.getElementById("logo").style.width = "10vw";
+    }
   }
 }
