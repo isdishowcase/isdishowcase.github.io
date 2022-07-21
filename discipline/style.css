@@ -256,8 +256,11 @@ marquee div{
     filter: grayscale(0%);
     width: 20%;
   }
+  .turnphone{
+    color: rgb(59,46,124);;
+  }
 
-  /*TODO: on hover color isko*/
+
   .ext-link a p{
     align-self: center;
     height: 100%;
