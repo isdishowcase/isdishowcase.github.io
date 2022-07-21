@@ -151,9 +151,7 @@ marquee div{
   overflow-y: scroll;
 }
 
-.list::-webkit-scrollbar{
-  display: none;
-}
+
 
 /* test ends*/
 
